@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%; /* Changed to 100% width for proper alignment */
+    height: 100px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    text-indent: 10px;
+    font-size: 20px;
+}
+
+.nav img{
+    border-radius: 20px;
+    height: 80px;
+    align-items: start;
+}
+
+a:hover {
+    color: rgb(221, 115, 23);
+}
+
+.main {
+    height: auto;
+    margin: 20px;
+    /* background-color: aquamarine; */
+}
+
+.main h2 {
+    font-size: 3rem; /* Changed to rem for better responsiveness */
+    background-color: aliceblue;
+    text-align: center;
+    font-family: monospace;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main1 {
+    height: auto;
+    display: flex;
+    gap: 50px; /* Fixed gap with px */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.card {
+    width: 100%; /* Changed to 100% to make it responsive */
+    max-width: 400px; /* Set a maximum width */
+    height: auto;
+    background-color: aliceblue;
+    margin: 10px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img {
+    width: 100%; /* Changed to 100% for responsive image scaling */
+    height: auto;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.footer p {
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .nav a {
+        font-size: 16px;
+    }
+
+    .main h2 {
+        font-size: 2rem;
+    }
+
+    .footer p {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: auto;
+    height: 100px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+
+.nav{
+    display: flex;
+}
+
+.nav a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    text-indent: 10px;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(221, 115, 23);
+}
+
+
+.main{
+    height: auto;
+    margin: 20px;
+    /* background-color: aquamarine; */
+}
+
+.main h2{
+    font-size: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    font-family: monospace;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main1{
+    height: auto;
+    display: flex;
+    gap: 50;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.card{
+    width: 400px;
+    height: auto;
+    background-color: aliceblue;
+    margin: 10px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img{
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+
+.footer p{
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruv Photography</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="nav">
+                    <img src="" alt="" srcset="">
+                    <a href="index.html">Home</a>
+                    <a href="main/aboutus.html">AboutUS</a>
+                    <a href="/main/contactus.html">ContactUS</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="main">
+        <h2>Wedding Photography</h2>
+        <div class="main1">
+            
+            <div class="card">
+                <img src="image\DSC_5585.JPG" alt="">
+                <p>morning</p>
+            </div>
+
+            <div class="card">
+                <img src="image\DSC_5594.JPG" alt="">
+                <p>morning</p>
+            </div>
+
+            <div class="card">
+                <img src="image\DSC_5600.JPG" alt="">
+                <p>morning</p>
+            </div>
+
+            <div class="card">
+                <img src="image\DSC_5593.JPG" alt="">
+                <p>morning</p>
+            </div>
+
+            <div class="card">
+                <img src="image\DSC_5593.JPG" alt="">
+                <p>morning</p>
+            </div>
+
+            <div class="card">
+                <img src="image\DSC_5593.JPG" alt="">
+                <p>morning</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="main">
+        <h2>Birthday Photography</h2>
+        <div class="main1">
+            
+            <div class="card">
+                <img src="image\IMG_20200204_140907.jpg" alt="">
+                <p>morning</p>
+            </div>
+
+            <div class="card">
+                <img src="image\IMG_20200210_100640.jpg" alt="">
+                <p>morning</p>
+            </div>
+
+            <div class="card">
+                <img src="image\DSC_5600.JPG" alt="">
+                <p>morning</p>
+            </div>
+
+            <div class="card">
+                <img src="image\IMG_20200213_092510.jpg" alt="">
+                <p>morning</p>
+            </div>
+
+            <div class="card">
+                <img src="image\IMG_20200124_122202.jpg" alt="">
+                <p>morning</p>
+            </div>
+
+            <div class="card">
+                <img src="image\IMG_20200221_205238.jpg" alt="">
+                <p>morning</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="f1">
+            <p>Made with <span style="color: red; font-style: italic;">Love</span> <i class="bi bi-balloon-heart"></i> by VISHWAS KUAMR</p>
+        </div>
+    </section>
+    
+</body>
+</html>
