@@ -64,7 +64,7 @@ a:hover {
 .card {
     width: 100%; /* Changed to 100% to make it responsive */
     max-width: 400px; /* Set a maximum width */
-    height: 600px;
+    height: auto;
     background-color: aliceblue;
     margin: 10px;
     color: black;
